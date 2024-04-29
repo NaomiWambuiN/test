@@ -1,0 +1,8 @@
+javascript project
+To-Do List
+•  Create a to-do list application where users can add, delete, and mark tasks as completed.
+<label for="">Appointments</label>
+                <input type="text"><br><br>
+                <label for="">other work</label>
+                <input type="text">
+            
