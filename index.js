@@ -1,0 +1,1 @@
+window.alert("welcome to your today list page")
