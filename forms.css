@@ -1,0 +1,9 @@
+body{
+    background-image:url(bjhgy.webp) ;
+}
+Input(type="submit").hover{
+    background-color:blue;
+}
+input(type="submit").hover{
+    background-color:#fff;
+}
