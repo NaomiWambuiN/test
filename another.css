@@ -1,0 +1,101 @@
+* {
+  background-color: aqua;
+}
+#submit:hover {
+  color: blueviolet;
+  background-color: brown;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#add-task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#new-task {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-item label {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.task-item.completed label {
+  text-decoration: line-through;
+  color: #666;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  #new-task,
+  .task-item label {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+
+  #new-task,
+  .task-item label {
+    width: 80%;
+  }
+}

@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(235, 193, 139);
+  padding: 0;
+}
+/* Make the layout responsive */
+body {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button[type="button"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+radio {
+  margin-right: 10px;
+}
+
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  input[type="text"],
+  textarea {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+  input[type="text"],
+  textarea {
+    width: 80%;
+  }
+}
+
+/* Make the layout responsive */
+body {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+a {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  input[type="text"],
+  input[type="submit"] {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+  input[type="text"],
+  input[type="submit"] {
+    width: 80%;
+  }
+}
+
+/* Style for the submit button */
+.Naomi {
+  background-color: #20b825;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Naomi:hover {
+  background-color: #3e8e41;
+}
