@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <script type="text/javascript">
+      //an array is a type of variable that holds multple values//
+
+      let students = ["Njeri😃", "Michael😎", "ShaniQuinter😊", "Sheldon😃😁"];
+      console.log(students);
+      //accessing elements
+      console.log(students[0]); //index starts from zero
+      console.log(students[1]);
+      //modifying the elements
+      students[1] = "Abdi";
+      console.log(students);
+      //add an element at the end of the array
+      students.push("Moha");
+      console.log(students);
+      //removing the last element in the aRRAY WE USE POP
+      students.pop();
+      console.log(students);
+      //unshift adds students to the beginning of the array
+      students.unshift("jessica😚");
+      console.log(students);
+      //shift removes elements from the beginning
+      students.shift();
+      console.log(students);
+      // array lenth
+      console.log(students.length);
+      //looping through ana array
+      for (let x = 0; x < students.length; x++) {
+        console.log(students[x]);
+      }
+
+      //another array
+      let fruits = ["Bananas", "Apples", "Mangoes", "oranges"];
+      console.log(fruits);
+      console.log(fruits[0]);
+      console.log(fruits[1]);
+      //modifying the elements
+      fruits[1] = " Guavas";
+      console.log(fruits);
+      //adding an element ata the end of the array
+      fruits.push("pineaples");
+      console.log(fruits);
+      //looping fruits
+      for (let y = 0; y < fruits.length; y++) {
+        console.log(fruits[y]);
+      }
+      //adding an element ata the beginning of the fruits
+      fruits.unshift("kiwi");
+      console.log(fruits);
+      //push an element at the end of an array
+      fruits.push("pears");
+      console.log(fruits);
+    </script>
+  </body>
+</html>
