@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#question {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#quiz-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#quiz-form input[type="radio"] {
+  margin-right: 10px;
+}
+
+#quiz-form label {
+  margin-bottom: 10px;
+}
+
+#result {
+  font-size: 20px;
+  font-weight: bold;
+}

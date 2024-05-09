@@ -19,4 +19,13 @@ taskList.addEventListener("click", (e) => {
     e.target.parentNode.classList.toggle("completed");
   }
 });
-l;
+
+//create delete button
+//let xx = document.createElement("button");
+//button.textContent = "delete";
+//append delete button to body
+//let kk = document.getElementById("add - task - form");
+//adding event listener to delete button
+//button.addEventListener("click", function () {
+// this.parentElement.remove();
+// kk.appendChild(xx);

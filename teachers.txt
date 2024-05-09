@@ -1,0 +1,14 @@
+for js 
+var inputbox=document.getElementById('input task')
+function addtask(){
+    if(input.value===)
+    alert("please enter a task);
+}
+else{
+    var li=document.createElement('li');
+    li.appendChild(document.createTextNode(input.value));
+    li.innerHTML=inputbox.value;
+    ullist.appendChild(li)
+}
+li.addEventListener("click",)
+a

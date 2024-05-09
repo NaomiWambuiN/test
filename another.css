@@ -99,3 +99,26 @@ button:hover {
     width: 80%;
   }
 }
+#Kkk {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  #Kkk {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #Kkk {
+    width: 80%;
+  }
+}

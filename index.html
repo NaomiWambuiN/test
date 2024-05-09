@@ -3,63 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in and Sign Up Form</title>
+    <title>To do list application</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/f4ee216155.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-<div class="container">
-    <div class="form-box">
-        <h1 id="title">Sign Up</h1>
-        <form>
-            <div class="input-group">
-                <div class="input-field" id="nameField">
-                    <i class="fa-solid fa-user"></i>
-                    <input type="text" placeholder="Name">
-                </div>
 
-                <div class="input-field">
-                    <i class="fa-solid fa-envelope"></i>
-                    <input type="email" placeholder="Email">
-                </div>
+    <h1>To do list application</h1>
+    <h2>my today's list 😁</h2>
+    <ul>
+        <li>Chores</li>
+        <ol>
+             <form action="">
+                <fieldset>
+              <li>  <label for="">kitchen chores</label></li>
+                <label for="">washing the dishes🍽 🍽🍴🥄</label>
+                    <input type="checkbox" name="" id=""><br>
+                <label for="">wipping the floor🏡</label>
+                    <input type="checkbox" name="" id="">
+                    <br><br>
+              <li>  <label for="">laundry👚</label></li>
+                <input type="text">
+                <input type="checkbox" name="" id=""><br><br>
+            <li> <label for="">homework</label></li>
+                <input type="text">
+                
+                <input type="checkbox" name="" id=""><br><br>
+            <li>  <label for="">other chores</label></li>
+                <input type="text">
+                <input type="checkbox" name="" id=""><br><br>
+                </ol>
 
-                <div class="input-field">
-                    <i class="fa-solid fa-lock"></i>
-                    <input type="password" placeholder="Password">
-                </div>
-                <p>Lost Password <a href="#">Click Here</a></p>
+            </fieldset></li><br><br>
+            <li>Studies</li>
+            <fieldset><ol>
 
-            </div>
-            <div class="btn-field">
-                <button type="button" id="signupBtn">Sign up</button>
-                <button type="button" id="signinBtn" class="disable">Sign in</button>
-            </div>
-        </form>
-    </div>
+          <li> <label for="">taking shortnotes</label></li>
+            <input type="text">
+            <input type="checkbox" name="" id=""><br><br>
+          <li> <label for="">taking an exam</label></li>
+            <input type="text">
+            <input type="checkbox" name="" id="">
+            </ol>
+            </fieldset><br><br>
+            <li>Appointments</li>     
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+    <input type="checkbox" name="" id="">
+        </ul>
+       <form action="">
+       <label for="">Outcome</label>
+       <input type="radio" name="Completed" value="A">Completed
+       <input type="radio" name="Completed" value="B">Partially done
+       <input type="radio" name="Completed" value="A">Not done
 
-</div>   
+</form>
+</form><br><br><br>
 
-<script>
 
-let signupBtn = document.getElementById("signupBtn");
-let signinBtn = document.getElementById("signinBtn");
-let nameField = document.getElementById("nameField");
-let title = document.getElementById("title");
+<input type="submit" value="save" name="save" required class="Naomi">
+<button class="btn">Add </button>
+<button class="btn1">Delete</button>
+<script src="index.js"></script>
 
-signinBtn.onclick = function(){
-    nameField.style.maxHeight ="0";
-    title.innerHTML = "Sign in";
-    signupBtn.classList.add("disable");
-    signinBtn.classList.remove("disable");
-}
-
-signupBtn.onclick = function(){
-    nameField.style.maxHeight ="60px";
-    title.innerHTML = "Sign up";
-    signinBtn.classList.add("disable");
-    signupBtn.classList.remove("disable");
-}
-</script>
+<script src="main.js"></script>
 </body>
 </html>
