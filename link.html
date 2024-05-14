@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input
+      type="button"
+      value="click here to see the warning"
+      onclick="myFunction()"
+    /><br />
+    <input type="button" value="Order Today" onclick="myorder()" id="" />
+    <br />
+    <script>
+      var x = "Mitchelle  and";
+      var y = " Naomi";
+      var w = " are friends <br>";
+      //document.write("My name is" + " " + x);
+      z = x + y + w;
+      document.write(z);
+      //an integer or a number cannot be put in quotes since it will be treated as a string
+      var a = "10";
+      var b = "5 <br>";
+      c = a + b;
+      document.write(c);
+      //correct one
+      var aa = 10;
+      var bb = 5;
+      cc = aa + bb;
+      document.write(cc);
+      //how to access elements
+      //document.getElementById(Trial).innerHTML = 30;
+      //how to input an alert
+      //how to input alert
+      // alert("welcome to Javascript😎");
+      //x=5 assigning a variable x==5
+      let p = 5;
+      let q = 3;
+      r = p % q;
+      document.write(r);
+      //increment
+      let f = 7;
+      document.write(f, f++);
+      //exponation /raised to power **
+      let g = 5;
+      document.write(r ** 3);
+      //!==not equal to
+      //functions
+      //function followed by keyword(parameters)
+      function myFunction() {
+        alert("Stop what you're doing🙃");
+        document.write("welcome to alert");
+      }
+      //confirmation dialog box
+      function myorder() {
+        let x = confirm("Are you sure you want to order?");
+        if (x == true) {
+          document.write("Thank you for your order😊");
+        } else {
+          document.write("Thank you for your time☺");
+        }
+      }
+    </script>
+  </body>
+</html>
