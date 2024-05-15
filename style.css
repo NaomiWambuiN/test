@@ -1,44 +1,26 @@
 * {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#question {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-#quiz-form {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-
-#quiz-form input[type="radio"] {
-  margin-right: 10px;
-}
-
-#quiz-form label {
-  margin-bottom: 10px;
-}
-
-#result {
-  font-size: 20px;
-  font-weight: bold;
-}
+    color: black;
+  }
+  #Naomi ul {
+    list-style-type: none;
+  }
+  #Naomi ul li {
+    display: inline;
+    padding: 20px;
+  }
+  #Naomi ul li:hover {
+    background-color: pink;
+    color: cornflowerblue;
+  }
+  .KKK {
+    border: 10px;
+  
+    display: inline;
+  }
+  .NNN {
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    border-color: darkorchid;
+    opacity: 40%;
+  }
