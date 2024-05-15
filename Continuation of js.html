@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="button" value="Click here" onclick="getname()" />
+    <input type="button" value="Click To input" onclick="allnames()" />
+
+    <script>
+      function getname() {
+        var m = prompt("Naomi");
+        document.write("Your name is" + m);
+      }
+      function allnames() {
+        var n = prompt("Enter your first name here");
+        var o = prompt("second name");
+        document.write("Your names are" + " " + n + o);
+      }
+      //var y=prompt("enter your f.name")
+      //var z=prompt("enter your s.name")
+      //p=y+z
+      //document.write(p)
+      //conditional statements
+      var x = 10;
+      if (x > 20) {
+        document.write("x is greater than 20");
+      }
+
+      var a = 5;
+      var b = 10;
+      if (a > b) {
+        alert("Very true😁😊");
+      } else {
+        alert("Not true😢😢");
+      }
+      //even and odd
+      var c = 5;
+      if (c % 2 == 0) {
+        alert("even");
+      } else {
+        alert("odd");
+      }
+      //switch statement
+      //Aprompt that allows you to enter a number then displays whether odd or even
+      var days = prompt("enter days");
+      switch (days) {
+        case "Monday":
+          alert("javascript");
+          break;
+        case "Tuesday":
+          alert("css");
+          break;
+        case "Wednesday":
+          alert("Django");
+          break;
+        case "Thursday":
+          alert("Python");
+          break;
+        case "Friday":
+          alert("c++");
+          break;
+        default:
+          alert("invalid day😶");
+          break;
+      }
+      //make a grading system using switch((x=x+2))
+      //loops
+      //while loop keeps on executing the statement as long as the condition is met
+      /*let s = 10;
+      while (s <= 50) {
+        alert("This number is less than 50");
+      }*/
+      //program displaying my name 5 times
+
+      /* let f = "Naomi ";
+      j = f++;
+      while (j < 5) {
+        alert(f);
+      }*/
+      var j = 0;
+      while (j <= 4) {
+        document.write("Naomi", "<br>");
+        j++;
+      }
+      var grades = prompt("enter days");
+      switch (grades) {
+        case ">80":
+          alert("javascript");
+          break;
+        case "Tuesday":
+          alert("css");
+          break;
+        case "Wednesday":
+          alert("Django");
+          break;
+        case "Thursday":
+          alert("Python");
+          break;
+        case "Friday":
+          alert("c++");
+          break;
+        default:
+          alert("invalid day😶");
+          break;
+      }
+      //skips and then continues
+    </script>
+  </body>
+</html>
